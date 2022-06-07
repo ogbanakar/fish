@@ -3,16 +3,25 @@
     color: aliceblue;
     height: 200px;
     margin-top: 250px;
+    
+    
     h1 {
         display: flex;
         justify-content: center;
         padding: 10px;
         background-color:rgb(30, 32, 33);
         border-radius: 2rem   ;
+        animation-name: example;
+        animation-duration: 4s;
     }
     p {
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 
+}
+@keyframes example{
+    from {background-color: black;}
+    to {background-color: rgb(30, 32, 33);}
 }
