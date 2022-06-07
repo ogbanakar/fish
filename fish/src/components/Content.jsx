@@ -19,6 +19,11 @@ const Content = () => {
         <br />
         ,Set up the filter and run the filter with the water in it for  a couple of days
       </p>
+
+      <h1>STEP 3</h1>
+      <p>
+          after all this is done you can go buy the fish
+      </p>
     </div>
   );
 };
